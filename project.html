@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>기말고사 프로젝트</title>
-	<script type="text/javascript">
-		
-	</script>
-	<style type="text/css">
-		body {background-color: #101113
-
-		}
-		.index {
-			color: #9FA0A2;
-			width:150px; height:30px; border:1px; float: left; 
-			padding-top: 20px; padding-bottom: 29px;
-			text-align: center;
-		}
-		#img1 {
-			max-width: 1357px; height: 577px; border:1.5px solid black; padding: 0px;
-		}
-		#img1-1 {
-			padding-left: 280px;
-		}
-		.synopsis {
-			color: white; float: left; text-align: center;
-		}
-		h5 {padding-left: 50px;}
-	</style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>영화 TENET 소개</title>
 </head>
 <body>
-<div class="index" style="padding-left: 450px;">SYNOPSIS</div>
-<div class="index">TRAILER</div>
-<div class="index">CHARACTER</div>
-<div class="index">ABOUT</div>
-<div class="index">SOUNDTRACK</div>
-<div class="index" style="padding-left: 35px;">STREAMING SITER</div>
-<div id="img1-1">
-	<img src="media/gallery1.jpg" id="img1">
-</div>
-<div style="padding-top: 57px;">
-	<span class="synopsis">SYNOPSIS</span>
-	<h5 class="synopsis">시간을 흐름을 뒤집는 인버전을 통해 현재와 미래를 오가며 세상을 파괴하려는 사토르를 막기 위해 투입된 작전의 주도자. 인버전에 대한 정보를 가진 닐과 미술품 감정사이자 사토르에 대한 복수심이 가득한 그의 아내 캣과 협력해 미래의 공격에 맞서 제3차 세계대전을 막아야 한다.</h5>
-</div>
+  <h1>영화 TENET 소개</h1>
+  
+<section id="intro">
+  <h2>영화 개요</h2>
+  <p>시간을 흐름을 뒤집는 인버전을 이용하여 세상을 파멸시키려는 사토르를 막는 임무를 맡은 작전의 주도자는 인버전에 대해 알고 있는 닐과 함께 목숨을 건 사투를 시작한다.</p>
+  <p id="fontChange">작전팀은 인버전의 원리를 터득하여 사토르의 계획을 무효화 시켜 제3차 세계대전을 막기 위해 고군분투한다.</p>
+</section>
+
+<section id="trailer">
+  <h2>예고편</h2>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/IW_khaePCBE" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="characters">
+  <h2>등장인물</h2>
+    
+  <div class="character">
+    <h3>주도자 - 존 데이비드 워싱턴</h3>
+    <p>'제3차 세계대전'을 막기 위해 투입된 CIA 요원</p>
+    <img src="media/protagonist.jpg" alt="Character 1" width="449" height="300">
+  </div>
+    
+  <div class="character">
+   <h3>닐 - 로버트 패틴슨</h3>
+   <p>뭄바이에서 활동하는 CIA 요원으로, 주도자를 돕는다. 항상 웃는 모습으로 능글맞은 면모가 있으나, 보기와 달리 현장 상황을 유연하게 대응하는 면모를 보이는 노련한 요원이다.</p>
+    <img src="media/Neil.jpg" alt="Character 2" width="562" height="300">
+  </div>
+
+  <div class="character">
+    <h3>캣 - 엘리자베스 데비키</h3>
+    <p>'캐서린 '캣' 바튼. 미술품 감정사로, 남편 사토르와 '남보다 못한 사이'며, 협박과 감시와 통제를 당하는 삶을 살고 있다. 특히 사랑하는 아들과 자신을 떼어놓으려는 것에 대한 복수심이 가득하다.</p>
+    <img src="media/Kat.jpg" alt="Character 3" width="450" height="300">
+  </div>
+    
+  <div class="character">
+    <h3>안드레이 사토르 - 케네스 브래너</h3>
+    <p>영국 국적을 가진 러시아인으로, 구 소련의 비밀 도시에서 시작한 무기 밀매업으로 엄청난 부를 쌓은 것으로 대외적으로 알려져 있는데, 
+      의문의 행보를 보이면서 주도자의 추적을 받는다. 
+      자신의 목적을 위해서라면 범법과 폭력, 살인도 마다하지 않는다.</p>
+    <img src="media/sator.jpg" alt="Character 4" width="483" height="300">
+  </div>
+</section>
+
+<section id="watch">
+  <h2>TENET 시청 가능한 플랫폼</h2>
+   <ul>
+     <li><a href="https://play.google.com/store/movies/details/%ED%85%8C%EB%84%B7?gl=KR&hl=en&id=im5aWbjMKAQ.P&pli=1" target="_blank">Google Play Movies</a></li>
+     <li><a href="https://serieson.naver.com/v2/movie/410954" target="_blank">Naver Series On</a></li>
+   </ul>
+  </section>
+<script src="script.js"></script>
 </body>
 </html>
